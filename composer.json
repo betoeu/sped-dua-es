@@ -1,0 +1,49 @@
+{
+    "name": "betoeu/sped-dua-es",
+    "type": "library",
+    "description": "Cálculo de DIFAL/ICMS-ST devido ao Espírito Santo e mapeamento para os códigos do DUA (Documento Único de Arrecadação), no padrão da comunidade nfephp-org.",
+    "keywords": [
+        "dua",
+        "dua-es",
+        "sefaz-es",
+        "icms",
+        "difal",
+        "substituicao-tributaria",
+        "nfephp"
+    ],
+    "homepage": "https://github.com/betoeu/sped-dua-es",
+    "license": [
+        "LGPL-3.0-or-later",
+        "GPL-3.0-or-later",
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "Alberto Leal",
+            "homepage": "https://github.com/betoeu",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-simplexml": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "NFePHP\\DuaEs\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NFePHP\\DuaEs\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit -c phpunit.xml.dist"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

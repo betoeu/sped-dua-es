@@ -1,0 +1,11 @@
+This package is triple-licensed, matching the convention used by the other
+nfephp-org/sped-* packages. You may use it under any one of:
+
+- GNU Lesser General Public License v3.0 or later (LGPL-3.0-or-later)
+  https://www.gnu.org/licenses/lgpl-3.0.html
+- GNU General Public License v3.0 or later (GPL-3.0-or-later)
+  https://www.gnu.org/licenses/gpl-3.0.html
+- MIT License
+  https://opensource.org/licenses/MIT
+
+Copyright (c) 2026 Alberto Leal and contributors.
